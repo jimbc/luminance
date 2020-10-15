@@ -1,6 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+"""
+This is an adapted version of rwinslow's surface script which can be found 
+on https://github.com/rwinslow/surface. The adapted version was converted 
+into a two-dimensional line evaluator instead of a three-dimensional surface
+evaluator. Additionally, new metrics were implemented. Apart from this,
+most of the code is unchanged.
+"""
+
 
 class Surface():
 
